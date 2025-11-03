@@ -1,0 +1,296 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(135deg, #fef6e4, #ffebc1);
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 40px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  background: linear-gradient(90deg, #ffb347, #ffcc33);
+  color: #222;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #444;
+}
+
+/* Links */
+a {
+  color: #0077cc;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff6600;
+}
+
+/* Intro section */
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 25px 0 15px;
+  color: #555;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.first {
+  color: #e63946;
+  font-weight: 500;
+}
+
+.second {
+  color: #1d3557;
+}
+
+/* Image */
+#course-image {
+  width: 60%;
+  max-width: 500px;
+  border-radius: 15px;
+  border: 5px solid #ffb347;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Form section */
+.form-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#your-name {
+  background-color: #ffe194;
+  border: 3px solid #444;
+  border-radius: 15px;
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#your-name h2 {
+  color: #006400;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 12px;
+  width: 80%;
+  margin-bottom: 15px;
+  border: 2px solid #aaa;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #ff8800;
+}
+
+button {
+  padding: 12px 25px;
+  background: linear-gradient(90deg, #ff9900, #ff6600);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #ffb347, #ff6600);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 15px;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling with gradient background */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  /* Alternate examples:
+     background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+     background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  */
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  background: linear-gradient(90deg, #ffb347, #ffcc33);
+  color: #222;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #444;
+}
+
+/* Links */
+a {
+  color: #0077cc;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff6600;
+}
+
+/* Intro section */
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 25px 0 15px;
+  color: #555;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.first {
+  color: #e63946;
+  font-weight: 500;
+}
+
+.second {
+  color: #1d3557;
+}
+
+/* Image */
+#course-image {
+  width: 60%;
+  max-width: 500px;
+  border-radius: 15px;
+  border: 5px solid #ffb347;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Form section */
+.form-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#your-name {
+  background: linear-gradient(135deg, #fff5ba, #ffd97d);
+  border: 3px solid #444;
+  border-radius: 15px;
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#your-name h2 {
+  color: #006400;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 12px;
+  width: 80%;
+  margin-bottom: 15px;
+  border: 2px solid #aaa;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #ff8800;
+}
+
+button {
+  padding: 12px 25px;
+  background: linear-gradient(90deg, #ff9900, #ff6600);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #ffb347, #ff6600);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 15px;
+  font-size: 16px;
+  color: #666;
+}
